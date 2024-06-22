@@ -23,9 +23,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-1#-%s-9yf4h=s#a4v1q+t$4(0fdh@32n3vo9(8!11d)buel=9*'
 CSRF_TRUSTED_ORIGINS = [
     'https://8000-codeinstitu-cifulltempl-2r1i72gy187.ws.codeinstitute-ide.net',
-    'https://8000-harmonicame-djangotestb-pxs4ythfcp0.ws.codeinstitute-ide.net'
+    'https://8000-harmonicame-djangotestb-pxs4ythfcp0.ws.codeinstitute-ide.net',
+    'https://8000-harmonicamen-blog3-032a4ovvb07.ws.codeinstitute-ide.net'
 ]
-
+#'8000-harmonicamen-blog3-032a4ovvb07.ws.codeinstitute-ide.net'#
 # CSRF_FAILURE_VIEW = 'https://8000-harmonicame-djangotestb-pxs4ythfcp0.ws.codeinstitute-ide.net'
 
 # https://8000-harmonicame-djangotestb-pxs4ythfcp0.ws.codeinstitute-ide.net 
@@ -33,7 +34,7 @@ CSRF_TRUSTED_ORIGINS = [
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-harmonicame-djangotestb-pxs4ythfcp0.ws.codeinstitute-ide.net']
+ALLOWED_HOSTS = ['8000-harmonicamen-blog3-032a4ovvb07.ws.codeinstitute-ide.net']
 
 
 # Application definition
@@ -45,6 +46,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'comment',
+    'post',
+   # 'interaction'
 ]
 
 MIDDLEWARE = [
